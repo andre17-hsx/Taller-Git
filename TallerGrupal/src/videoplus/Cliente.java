@@ -23,4 +23,18 @@ public class Cliente {
         }
         return false;
     }
+    
+    public void reproducir(){
+        String continuar = "no";
+        int reproducciones=0;
+        do{
+            for(video v: listaReproduccion){
+                if (v!=null){
+                    getnombre(v);
+                    reproducciones +=1;
+                    listaReproduccion.remove(reproducciones);   
+                } 
+            }
+        }while(continuar.equals("si"));
+    }
 }
