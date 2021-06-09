@@ -30,7 +30,7 @@ public class Cliente {
         String continuar = "no";
         int reproducciones=0;
         do{
-            for(video v: listaReproduccion){
+            for(Video v: listaReproduccion){
                 if (v!=null){
                     getnombre(v);
                     reproducciones +=1;

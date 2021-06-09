@@ -54,8 +54,8 @@ public class Video {
          this.nombre = nombre;
      };
      
-     public void setNumeroReproducciones(int numRepro){
-         this.numeroReproducciones=numRepro;
+     public void setNumeroReproducciones(int numeroReproducciones){
+         this.numeroReproducciones=numeroReproducciones;
      }
      
 }

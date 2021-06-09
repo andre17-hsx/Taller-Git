@@ -5,6 +5,9 @@
  */
 package videoplus;
 import java.util.Scanner;
+
+import jdk.internal.org.jline.reader.impl.completer.AggregateCompleter;
+
 import java.util.ArrayList;
 
 /**
@@ -14,6 +17,8 @@ import java.util.ArrayList;
 public class VideoPlus {
     
     public static void main(String[] args){
+        Cliente c = new Cliente("jose");
+        //JOSE,[(nombre, nuemro reproducciones), (nombre numero reproducciones)]
         ArrayList<Video> videos = new ArrayList<Video>();
         videos.add(new Video("Cruela"));
         videos.add(new Video("Lazo While"));
@@ -22,10 +27,12 @@ public class VideoPlus {
         videos.add(new Video("Blanca Nieves"));
         videos.add(new Video("Buscando a neno"));
         
-        Cliente c = new Cliente("jose");
+        for (Video v: videos){
+            boolean valor=c.agregarLista(v);
+        }
 
-        videos.reproducir();
-        //agregue cinco peluclas a la lista de reproduccion
+        c.reproducir();
+        //agregue cinco peliculas a la lista de reproduccion
         
         //reproduzca las peliculas*/
     }
