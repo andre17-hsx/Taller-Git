@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package videoplus;
-
+import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Cliente {
@@ -24,6 +24,8 @@ public class Cliente {
         return false;
     }
     
+    Scanner sc= new Scanner(System.in);
+    
     public void reproducir(){
         String continuar = "no";
         int reproducciones=0;
@@ -35,6 +37,8 @@ public class Cliente {
                     listaReproduccion.remove(reproducciones);   
                 } 
             }
+            System.out.print("Desea continuar?");
+            continuar=sc.nextLine();
         }while(continuar.equals("si"));
     }
 }

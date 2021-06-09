@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package videoplus;
-
+import java.util.Scanner;
 import java.util.ArrayList;
 
 /**
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class VideoPlus {
     
     public static void main(String[] args){
-        /*ArrayList<Video> videos = new ArrayList<Video>();
+        ArrayList<Video> videos = new ArrayList<Video>();
         videos.add(new Video("Cruela"));
         videos.add(new Video("Lazo While"));
         videos.add(new Video("El rey Leon"));
@@ -23,6 +23,8 @@ public class VideoPlus {
         videos.add(new Video("Buscando a neno"));
         
         Cliente c = new Cliente("jose");
+
+        videos.reproducir();
         //agregue cinco peluclas a la lista de reproduccion
         
         //reproduzca las peliculas*/
