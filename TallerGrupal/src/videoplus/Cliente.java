@@ -50,7 +50,7 @@ public class Cliente {
             }                
  
             System.out.println("\nDesea reproducir el siguiente?");
-            System.out.print("Ingrese <si> para seguir, o Ingrese cualquier caracter para salir: ");
+            System.out.print("Ingrese <s> para seguir, o Ingrese cualquier caracter para salir: ");
             continuar=sc.nextLine();
             
         }while((continuar.toUpperCase().equals("S")));
