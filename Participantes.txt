@@ -3,3 +3,14 @@ Nombre			| Carrera		  |
 Jefferson Eras Lindao   | Ciencias Computacionales|
 			|			  |
 			|			  |
+Nombre			| Carrera		  |
+---------------------------------------------------
+Andre Aguirre Apolo     | Ingenieria Mecatronica
+			|			  |
+			|			  |
+			|			  |
+Nombre			| Carrera		  |
+---------------------------------------------------
+Genesis cortez          | 
+			|			  |
+			|			  |
