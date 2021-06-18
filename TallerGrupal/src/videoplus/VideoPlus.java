@@ -5,8 +5,6 @@
  */
 package videoplus;
 import java.util.Scanner;
-
-
 import java.util.ArrayList;
 
 /**
@@ -17,7 +15,6 @@ public class VideoPlus {
     
     public static void main(String[] args){
         Cliente c = new Cliente("jose");
-        //JOSE,[(nombre, nuemro reproducciones), (nombre numero reproducciones)]
         ArrayList<Video> videos = new ArrayList<Video>();
         videos.add(new Video("Cruela"));
         videos.add(new Video("Lazo While"));
@@ -31,8 +28,6 @@ public class VideoPlus {
         }
 
         c.reproducir();
-        //agregue cinco peliculas a la lista de reproduccion
-        
-        //reproduzca las peliculas*/
+
     }
 }

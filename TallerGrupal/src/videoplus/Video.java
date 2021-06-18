@@ -23,13 +23,10 @@ public class Video {
     }
     
     public void mostrarInformacion(){
-        System.out.println("nombre="+ nombre + ","
-                + "numeroReproducciones"+numeroReproducciones+'}');
+        System.out.println("Nombre: "+ nombre + ","
+                + "NumeroReproducciones: "+numeroReproducciones+'}');
     }
-    /**
-     * dos videos son iguales si tienen el mismo nombre y mismo numero de
-     *reproducciones
-     */
+    
      public boolean equals(Object obj){
          Video other = (Video) obj;
          
@@ -39,9 +36,7 @@ public class Video {
          }else{
             return false;}
      }
-     
-     //getter y setter
-         
+
      public String getnombre(){
          return nombre;
      };
